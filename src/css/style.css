@@ -1,0 +1,8 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}

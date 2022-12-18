@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Body() {
   return (
-    <div className="card text-white bg-dark m-3">
+    <div id="body" className="card text-white bg-dark m-3">
       <div className="card-header">Header</div>
       <div className="card-body">
         <h5 className="card-title">Dark card title</h5>
