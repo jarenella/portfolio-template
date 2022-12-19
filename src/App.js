@@ -1,13 +1,10 @@
 import Header from './components/Header';
-import Body from './components/Body';
-import Hero from './components/Hero';
+import React, { useState } from 'react';
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Body />
     </>
   );
 }
