@@ -10,7 +10,7 @@ function Portfolio() {
     <>
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="Card image cap" />
+          <img className="card-img-top" src="https://github.com/Renatatims/GitHelpNOW/raw/main/assets/screenshots/preview.png" alt="The landing page of the GitHelpNOW website" />
           <div className="card-body">
             <h5 className="card-title">GitHelpNOW</h5>
             <p className="card-text">A group project inspired by the under-utilization of non-profit related APIs allowing users to both give and get help</p>
@@ -22,7 +22,7 @@ function Portfolio() {
 
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="Card image cap" />
+          <img className="card-img-top" src="https://github.com/mrcorbo/AccountabiliBuddies/raw/main/assets/screenshots/Capture1.png" alt="The landing page of the AccountabilliBuddies website" />
           <div className="card-body">
             <h5 className="card-title">AccountabilliBuddies</h5>
             <p className="card-text">A group project allowing for users to make accounts and track their progress at goals of their choice</p>
@@ -33,7 +33,7 @@ function Portfolio() {
 
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="Card image cap" />
+          <img className="card-img-top" src="..." alt="A box reading your password here and a button indicating that the user would like to start answering prompts" />
           <div className="card-body">
             <h5 className="card-title">Password Generator</h5>
             <p className="card-text">A front-end application that generates a cryptic password at random based off of user-input prompts</p>
@@ -45,7 +45,7 @@ function Portfolio() {
 
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="Card image cap" />
+          <img className="card-img-top" src="..." alt="A list of sections including multiple cities and their respective weather, as well as a section to search for and add new cities" />
           <div className="card-body">
             <h5 className="card-title">Weather Tracker</h5>
             <p className="card-text">This application allows users to add cities they choose to a list that allows them to track the current weather status there.</p>
@@ -57,7 +57,7 @@ function Portfolio() {
 
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="Card image cap" />
+          <img className="card-img-top" src="..." alt="" />
           <div className="card-body">
             <h5 className="card-title">Readme Generator</h5>
             <p className="card-text">A NodeJS app allowing a user to generate a readme for them based off of only command-line prompts. No need to type up your own markdown. As a back-end application, this project has no deployment link</p>
@@ -68,7 +68,7 @@ function Portfolio() {
 
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="Card image cap" />
+          <img className="card-img-top" src="..." alt="" />
           <div className="card-body">
             <h5 className="card-title">Employee Tracker</h5>
             <p className="card-text">This project allows you to store information about employees, managers, departments, salaries, etc. in a database and easily view the information through command line UI. Information can also be easily updated through the program. Because this project is back-end only, there is no deployment link</p>
