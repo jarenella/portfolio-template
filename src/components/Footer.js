@@ -10,11 +10,15 @@ function Footer() {
                 <div className="row">
 
                     <div className="col-lg-3 col-md-6 mb-4 mb-md-0 text-light">
-                        <h5 className="text-uppercase">LinkedIn</h5>
+                        <a href="https://www.linkedin.com/in/james-arenella-113bab172/" className="text-decoration-none">
+                            <h5 className="text-uppercase text-light">LinkedIn</h5>
+                        </a>
                     </div>
 
                     <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 className="text-uppercase mb-0 text-light">GitHub</h5>
+                        <a href="https://github.com/jarenella" className="text-decoration-none">
+                            <h5 className="text-uppercase mb-0 text-light">GitHub</h5>
+                        </a>
                     </div>
                     
                     <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
