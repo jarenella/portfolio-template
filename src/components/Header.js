@@ -20,7 +20,7 @@ function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <h1 className="navbar-brand text-light m-3 mr-0 mt-0 mb-0">Firstname Lastname</h1>
+        <h1 className="navbar-brand text-light m-3 mr-0 mt-0 mb-0">Jamie Arenella</h1>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

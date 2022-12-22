@@ -5,6 +5,12 @@ import Contact from './Contact';
 
 function Body(props) {
 
+  const imageStyling = {
+    width: '200px',
+    height: '200px',
+    borderRadius: '50%'
+  }
+
   let header = "";
   let cardTitle = "";
   let cardText = "";
@@ -36,7 +42,7 @@ function Body(props) {
       <div className="card-header">{header}</div>
 
       {props.currentPage === "AboutMe" ? 
-      <img src="https://i.guim.co.uk/img/media/b60a4e5fed7d577aaaae08c2f194ad432732b073/0_0_5333_3200/master/5333.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=01520448b7ae5a2354e6d65f460ff9b9"/> 
+      <img style={imageStyling} alt="A professional portfolio headshot" src="https://media.licdn.com/dms/image/D5603AQFomccCQJ6I4A/profile-displayphoto-shrink_200_200/0/1669497505455?e=1677110400&v=beta&t=sDMRU_uSQs-I0T7DLZe4RVUd0YnD6D_ToUwz4QpkYZ4"/> 
       : <p></p>}
 
       <div className="card-body">

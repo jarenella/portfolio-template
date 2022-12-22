@@ -33,7 +33,7 @@ function Portfolio() {
 
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="A box reading your password here and a button indicating that the user would like to start answering prompts" />
+          <img className="card-img-top" src="https://github.com/jarenella/password-generator/blob/main/deployed_screenshots/deployed_blank.png?raw=true" alt="A box reading your password here and a button indicating that the user would like to start answering prompts" />
           <div className="card-body">
             <h5 className="card-title">Password Generator</h5>
             <p className="card-text">A front-end application that generates a cryptic password at random based off of user-input prompts</p>
@@ -45,7 +45,7 @@ function Portfolio() {
 
       <div id="card-holder" className="d-flex justify-content-center">
         <div className="card bg-secondary" style={cardWidth}>
-          <img className="card-img-top" src="..." alt="A list of sections including multiple cities and their respective weather, as well as a section to search for and add new cities" />
+          <img className="card-img-top" src="https://github.com/jarenella/weather-tracker/blob/main/imgs/weather-track.png?raw=true" alt="A list of sections including multiple cities and their respective weather, as well as a section to search for and add new cities" />
           <div className="card-body">
             <h5 className="card-title">Weather Tracker</h5>
             <p className="card-text">This application allows users to add cities they choose to a list that allows them to track the current weather status there.</p>
