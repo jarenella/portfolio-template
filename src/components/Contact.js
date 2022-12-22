@@ -8,12 +8,12 @@ function Contact() {
   const [message, setMessage] = useState("");
 
   const inputChangeHandler = (element) => {
-    if (element.target.id === "FormControlInput1") { //if email
+    if (element.target.id === "FormControlInput1") { //if email field
       const userInput = document.getElementById("FormControlInput1").value;
       setEmail(userInput);
-      const isEmailCorrect = validateEmail(userInput);
-      setEmailIsCorrect(isEmailCorrect);
-    } else if (element.target.id === "formTextArea") { //if message
+      const isEmailCorrect = validateEmail(userInput); //email regex stuff
+      setEmailIsCorrect(isEmailCorrect); //more email regex stuff
+    } else if (element.target.id === "formTextArea") { //if message field
       const userInput = element.target.value;
       setMessage(userInput);
     }

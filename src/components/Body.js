@@ -32,7 +32,7 @@ function Body(props) {
     id = "contact";
   } else if (props.currentPage === 'Resume') {
     header = "Resume";
-    cardTitle = "My qualifications:";
+    cardTitle = "My proficiencies:";
     cardText = "";
     id = "resume";
   }
