@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
+import validateEmail from '../helpers/validateEmail';
 
 function Contact() {
 
   const [email, setEmail] = useState("");
+  const [emailIsCorrect, setEmailIsCorrect] = useState(false);
   const [message, setMessage] = useState("");
 
   const inputChangeHandler = (element) => {
-    if (element.target.id === "FormControlInput1") {
+    if (element.target.id === "FormControlInput1") { //if email
       const userInput = document.getElementById("FormControlInput1").value;
       setEmail(userInput);
-    } else if (element.target.id === "formTextArea") {
+      const isEmailCorrect = validateEmail(userInput);
+      setEmailIsCorrect(isEmailCorrect);
+    } else if (element.target.id === "formTextArea") { //if message
       const userInput = element.target.value;
       setMessage(userInput);
     }
@@ -27,7 +31,15 @@ function Contact() {
           <p></p>
         }
 
-        <label htmlFor="exampleFormControlInput1">Your email address</label>
+        {emailIsCorrect === false ? 
+        <div class="alert alert-danger" role="alert">
+          Please enter a valid Email
+        </div>
+        :
+          <p></p>
+        }
+
+        <label for="exampleFormControlInput1">Your email address</label>
         <input name="email" onChange={inputChangeHandler} type="email" className="form-control" id="FormControlInput1" placeholder="name@example.com" />
       </div>
 
@@ -41,9 +53,11 @@ function Contact() {
           <p></p>
         }
 
-        <label htmlFor="exampleFormControlTextarea1">Your message here</label>
+        <label for="exampleFormControlTextarea1">Your message here</label>
         <textarea onChange={inputChangeHandler} className="form-control" id="formTextArea" rows="3"></textarea>
       </div>
+
+      <input type="submit" value="Submit"></input>
     </form>
   );
 }
